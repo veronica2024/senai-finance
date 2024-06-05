@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+body{  
+    background-color: rgb(236, 185, 168);
+    justify-content: center;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(tablet1.png);
+    color: white;
+    background-size: contain;
+}
+
+button{
+cursor: pointer;
+transition: 0.3s;
+padding: 10px;
+margin-bottom: 10px;
+width: -webkit-fill-available;
+}
+
+button:active{
+    opacity: 0.8s;
+}
+button[disabled] {
+    opacity: 0.8; 
+}
+
+
+input{
+    padding: 10px;
+    width: -webkit-fill-available;
+    border: none; 
+}
+
+
+h1{
+font-size: 26px;
+}
+
+form{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: auto 0;
+
+}
+
+
+
